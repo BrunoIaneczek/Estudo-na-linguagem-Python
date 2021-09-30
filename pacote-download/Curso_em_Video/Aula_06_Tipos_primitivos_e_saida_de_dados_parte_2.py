@@ -1,0 +1,13 @@
+n1 = int(input('digite valor: '))
+n2 = int(input('digite outro valor:  '))
+soma = (n1+n2)
+print('a soma entre {} e {} é de {}'.format(n1,n2,soma))
+
+algo = (input('digite algo:  '))
+print(algo)
+print('o tipo primitivo deste valor é', type(algo))
+print('o valor é um numero?',algo.isnumeric())
+print('o valor e alfabético? ',algo.isalpha())
+print('o valor é decimal? ',algo.isdecimal())
+print('o valor esta maisculo? ',algo.isupper())
+print('o valor esta em minusculo? ',algo.islower())
