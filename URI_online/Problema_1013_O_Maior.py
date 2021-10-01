@@ -3,4 +3,5 @@ a = int(a)
 b = int(b)
 c = int(c)
 
-maior = (a+b+a*b*c(a-b))/2
+numeros = [a,b,c]
+print(f'{max(numeros)} eh o maior')
