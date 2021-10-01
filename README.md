@@ -1,2 +1,3 @@
-# Estudo-na-linguagem-Python
+# Estudo da linguagem Python
+ 
  Exercícios, aulas e pequenos projetos
