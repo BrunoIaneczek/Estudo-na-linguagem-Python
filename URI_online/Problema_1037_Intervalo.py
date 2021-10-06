@@ -1,9 +1,12 @@
 num = float(input())
-intervalos = {"intervalo 0, 25":range(0,25000),'intervalo 25, 50':range(25000,50000),'intervalo 50, 75':range(50000,75000),'intervalo 75, 100':range(75000,100000)}
-
-for k , v in intervalos.items():
-    if num in v:
-        print(f'{k}')
-    else:
-        print('Fora do intervalo')
-        break
+if num > 0 and num < 25.000:
+    print('Intervalo [0,25]')
+elif num > 25.000 and num < 50.000:
+    print('Intervalo (25,50]')
+elif num > 50.000 and num < 75.000:
+    print('Intervalo (50,75]')
+elif num > 75.000 and num < 100.000:
+    print('Intervalo (75,100]')
+else:
+    print('Fora de intervalo')
+    
